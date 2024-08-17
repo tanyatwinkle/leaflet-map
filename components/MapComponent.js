@@ -40,7 +40,7 @@ function MarkerWithClick({ position }) {
 
 export default function MapComponent() {
   return (
-    <MapContainer center={[20.5937, 78.9629]} zoom={5} style={{ height: '715ypx', width: '100%' }}>
+    <MapContainer center={[20.5937, 78.9629]} zoom={5} style={{ height: '715px', width: '100%' }}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution="&copy; OpenStreetMap contributors"
