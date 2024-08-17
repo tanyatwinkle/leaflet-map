@@ -5,7 +5,20 @@ const MapComponent = dynamic(() => import('../components/MapComponent'), { ssr: 
 export default function Home() {
   return (
     <div>
-      <h1>Interactive Map with Markers</h1>
+      <div
+                    style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        alignItems: "center",
+                        fontSize: "3rem",
+                        fontWeight: "bolder",
+                        fontFamily: "Garamond",
+                        background: "#87CEEB"
+                    }}
+                >
+                  Interactive Map with Markers 
+                </div>
+      
       <MapComponent />
     </div>
   );
